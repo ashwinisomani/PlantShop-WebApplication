@@ -1,0 +1,35 @@
+.accordion-container .accordion-content{
+    background-color: burlywood;
+}
+
+.accordion-container .accordion-header{
+    background-color: #a18663;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+::marker {
+    display: none !important;
+}
+
+.accordion-container .accordion-content .accordion-content-list{
+    margin: 0;
+    padding: 0.8rem 1rem;
+    align-items: left !important;
+    display: table-cell;
+    list-style: none
+}
+
+.accordion-container .accordion-content .accordion-content-list .accordion-content-list-item{
+    text-align: left;
+}
+
+.accordion-container .accordion-header .accordion-control{
+    font-weight: 700;
+}

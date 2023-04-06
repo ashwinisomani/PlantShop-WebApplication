@@ -1,0 +1,28 @@
+.product-container{
+    background-color: antiquewhite;
+    height: 80%;
+}
+
+.product-container .product-heading{
+    padding: 2rem 0 0;
+}
+
+.product-container .product-heading h1 {
+    color: brown;
+}
+
+.product-container .product-content{
+    padding: 0 20%;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 540px) {
+    .product-container{
+        height: 75%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 414px) {
+    .product-container{
+        height: 70%;
+    }
+}

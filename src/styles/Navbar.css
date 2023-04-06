@@ -1,0 +1,43 @@
+.nav-bar-container{
+    background-color: black;
+    height: 10%;
+    position: sticky;
+}
+
+.nav-bar-container .nav-bar{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    float: right;
+    width: 65%;
+}
+
+.nav-bar-container .nav-bar .nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 540px) {
+    .nav-bar-container{
+        height: 15%;
+    }
+    .nav-bar-container .nav-bar{
+        flex-direction: column;
+        float: left;
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 414px) {
+    .nav-bar-container{
+        height: 20%;
+    }
+    .nav-bar-container .nav-bar{
+        flex-direction: column;
+        float: left;
+        width: 25%;
+    }
+}

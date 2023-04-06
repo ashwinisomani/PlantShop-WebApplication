@@ -1,0 +1,83 @@
+.about-load-area{
+    height: 80%;
+}
+
+.about-container{
+    background-image: url("../img/Home.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.about-container .about-heading{
+    padding: 2rem 0 0;
+}
+
+.about-container .about-heading h1,.about-container .about-heading h3 {
+    color: brown;
+}
+
+.about-container .about-content p{
+    margin: 0;
+}
+
+.about-container .about-content{
+    padding: 0 5rem;
+}
+
+/* css for spinner */
+@keyframes spinner-two {
+0% {transform: rotate(0deg)}
+to {transform: rotate(359deg)}
+}
+
+.gg-spinner-two {
+transform: scale(var(--ggs,1));
+box-sizing: border-box;
+position: relative;
+display: block;
+width: 20px;
+height: 20px
+}
+
+.gg-spinner-two::after,
+.gg-spinner-two::before {
+box-sizing: border-box;
+display: block;
+width: 20px;
+height: 20px;
+content: "";
+position: absolute;
+border-radius: 100px
+}
+
+.gg-spinner-two::before {
+animation: spinner-two 1s cubic-bezier(.6,0,.4,1) infinite;
+border: 3px solid transparent;
+border-bottom-color: currentColor;
+border-top-color: currentColor
+}
+
+.gg-spinner-two::after {
+border: 3px solid;
+opacity: .2
+} 
+
+@media only screen and (min-width: 414px) and (max-width: 540px) {
+    .about-load-area{
+        height: 75%;
+    }
+    .about-container{
+        background-color: antiquewhite;
+        background-image: none;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 414px) {
+    .about-load-area{
+        height: 70%;
+    }
+    .about-container{
+        background-color: antiquewhite;
+        background-image: none;
+    }
+}

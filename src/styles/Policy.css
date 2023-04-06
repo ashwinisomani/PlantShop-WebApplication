@@ -1,0 +1,37 @@
+.policy-container{
+    background-image: url("../img/Home.jpg");
+    height: 80%;
+    background-size: cover;
+}
+
+.policy-container .policy-heading{
+    padding: 2rem 0 0;
+}
+
+.policy-container .policy-heading h1,.policy-container .policy-heading h3 {
+    color: brown;
+}
+
+.policy-container .policy-content p{
+    margin: 0;
+}
+
+.policy-container .policy-content{
+    padding: 0 5rem;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 540px) {
+    .policy-container{
+        height: 75%;
+        background-color: antiquewhite;
+        background-image: none;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 414px) {
+    .policy-container{
+        height: 70%;
+        background-color: antiquewhite;
+        background-image: none;
+    }
+}

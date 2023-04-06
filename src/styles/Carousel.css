@@ -1,0 +1,31 @@
+.carousel-container{
+    display: inline-flex;
+}
+
+.carousel-container .previous-item, .carousel-container .next-item {
+    border: none;
+    background-color: antiquewhite;
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 3rem;
+}
+
+.carousel-container .current-item{
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container .current-item .current-item-image{
+    height : 450px;
+}
+
+@media only screen and (max-width: 540px) {
+    .carousel-container .current-item .current-item-image{
+        height : 350px;
+    }
+
+    .carousel-container .previous-item, .carousel-container .next-item {
+        padding: 1rem;
+    }
+}

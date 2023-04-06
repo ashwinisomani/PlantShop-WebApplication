@@ -1,0 +1,64 @@
+.contact-container{
+    background-color: antiquewhite;
+    height: 80%;
+}
+
+.contact-container .contact-heading{
+    padding: 2rem 0 0;
+}
+
+.contact-container .contact-heading h1 {
+    color: brown;
+}
+
+.contact-container .contact-form form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-container .contact-form form .input, .contact-container .contact-form form .label{
+    display: inline-block;
+    padding: 0.5rem
+}
+
+.contact-container .contact-form form .label{
+    width: 30%;
+    text-align: right;
+}
+
+label+input{
+    width: 30%;
+    margin: 1% 30% 0 4%;
+}
+label+textarea{
+    width: 30%;
+    margin: 1% 30% 0 4%;
+}
+
+input+input{
+    float: right;
+}
+  
+.contact-container .contact-form form button {
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.7rem;
+    font-size: 15px;
+    cursor: grab;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 540px) {
+    .contact-container{
+        height: 75%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 414px) {
+    .contact-container{
+        height: 70%;
+    }
+}
